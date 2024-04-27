@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+.back {
+  background-repeat: no-repeat;
+  font-family: "Quicksand", sans-serif;
+}
+.togglebtn {
+  background-color: #5a96ff;
+  border-radius: 50%;
+  transition: background-color ease-in 0.5s;
+}
+.d-flex-1 {
+  display: flex;
+  gap: 3%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card-effect-light {
+  background-image: url(./assets/back.gif);
+  background-size: cover;
+  background-position-x: center;
+  backdrop-filter: blur(20px);
+
+  color: white;
+  border-radius: 1rem;
+  padding: 3%;
+  width: fit-content;
+  font-family: "Quicksand", sans-serif;
+}
+
+.div-effect-dark {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.div-effect-light {
+  background-color: #e8fff6;
+  border-radius: 1rem;
+}
+
+.search-dark-text {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+}
+.search-dark-text::placeholder {
+  color: white;
+  background-color: transparent;
+}
+.search-light-text {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: gray;
+}
+.search-light-text::placeholder {
+  color: gray;
+  background-color: transparent;
+}
+
+.round {
+  border-radius: 2rem;
+}
+.fs-custom {
+  font-size: 4rem;
+}
+.primary {
+  color: #00d19d;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.fs-0 {
+  font-size: 5rem;
+}
+
+.card-hover {
+  cursor: pointer;
+}
+.card-hover:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.fixed-size-div {
+  width: 100%; 
+  min-height: 17rem; 
+  border: 1px solid #ccc;
+  overflow: hidden;
+  background-image: url("./assets/news.gif");
+  color: black;
+}
+
+.bg-darkB {
+  background-color: #3c305e;
+}
+.bg-lightB {
+  background-color: #f0f5fd;
+}
+
+.air-dark {
+  background-color: #483b70;
+  border-radius: 2rem;
+}
+.air-light {
+  background-color: white;
+  box-shadow: 5px 5px 10px gray;
+  border-radius: 2rem;
+}
+
+.sunrise-dark {
+  background-color: #3c305e;
+  border-radius: 1rem;
+  height: 100%;
+}
+
+.sunrise-light {
+  background-color: #fff8ec;
+  border-radius: 1rem;
+  height: 100%;
+}
+
+.right-back-dark {
+  background-color: #342b52;
+  max-width: fit-content;
+}
+
+.right-back-light {
+  background-color: #fffffc;
+  max-width: fit-content;
+}
+
+.search-dark {
+  background-color: #40305d;
+  border-radius: 2rem;
+  max-width: 80%;
+}
+.search-light {
+  background-color: #f5f8fd;
+  border-radius: 2rem;
+  max-width: 80%;
+}
+
+.toggle-dark {
+  background-color: #4d3b6f;
+  border-radius: 2rem;
+  height: fit-content;
+}
+.toggle-light {
+  background-color: #fffffc;
+  border-radius: 2rem;
+  height: fit-content;
+}
+
+#body,
+#left_back,
+#date,
+#air,
+#air_quality,
+#country_name,
+#air_info,
+#air_all,
+#sunrise_sunset,
+#sunrise_text,
+#sunrise_inside,
+#sunrise_inside1,
+#right,
+#search_bar,
+#search,
+#toggle {
+  transition: color 0.5s, background-color 0.5s;
+}
+
+#left_back,
+#right,
+#search_bar {
+  transition: background-color 0.5s;
+}
+
+#air_all {
+  transition: color 0.5s, background-color 0.5s, box-shadow 0.5s;
+}
+
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-clear-button {
+    display: none; 
+}
+
+
